@@ -143,6 +143,7 @@ img{
     }
     .about-us{
         display:block;
+        padding:2px 2px;
     }
     #para{
         font-size:12px;
