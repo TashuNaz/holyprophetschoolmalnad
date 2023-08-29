@@ -135,10 +135,12 @@ img{
 
 @media only screen and (max-width:600px)
 {
-    .header.container{
+    .header{
         display: block;
     }
     nav ul li {
         display: flex;
+        justify-content:space-between;
+        font-size:16px;
     }
 }
