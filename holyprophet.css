@@ -144,3 +144,8 @@ img{
     .about-us{
         display:block;
     }
+    #para{
+        font-size:12px;
+        overflow: hidden;
+        }
+    }
