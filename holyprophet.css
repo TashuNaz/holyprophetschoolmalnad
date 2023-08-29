@@ -146,10 +146,6 @@ img{
     }
 nav ul{
     position:fixed;
-}
-    
-nav ul li{
-    display:block;
-    justify-content:space-between
+    display:flex;
 }
     }
