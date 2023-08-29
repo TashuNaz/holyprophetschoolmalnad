@@ -135,6 +135,9 @@ img{
 
 @media only screen and (max-width:600px)
 {
+    #nav{
+        display:block;
+    }
    .schoolname{
        font-size:30px;
     }
