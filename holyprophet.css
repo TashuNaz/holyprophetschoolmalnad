@@ -11,6 +11,7 @@ body{
     background-color: rgb(36, 127, 180);
     color: black;
 }
+
 .header{
     margin-top: 10px;
     padding-top: 10px
@@ -138,6 +139,9 @@ img{
     #nav{
         display:block;
     }
+    .header-text{
+    width:100%;
+}
    .schoolname{
        font-size:30px;
     }
