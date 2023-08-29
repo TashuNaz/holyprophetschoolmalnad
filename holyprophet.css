@@ -138,6 +138,7 @@ img{
 {
     #nav{
         display:block;
+        widtg:100%;
     }
     .header.header-text{
         width:100%;
