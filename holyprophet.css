@@ -132,13 +132,13 @@ img{
 
 /* css for small screens*/
 
+
 @media only screen and (max-width:600px)
 {
-    .header{
-        display: inline;
+    .header.container{
+        display: block;
     }
-    nav ul li{
-        font-size:20px;
-        display:flex;
-        justify-content:space-evenly;
+    nav ul li {
+        display: flex;
+    }
 }
