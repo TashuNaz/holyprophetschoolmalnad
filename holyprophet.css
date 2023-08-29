@@ -145,6 +145,9 @@ img{
         display:block;
         padding:2px 2px;
     }
+    .imgdiv #img{
+        height:400px;
+    }
     #para{
         font-size:12px;
         overflow: hidden;
