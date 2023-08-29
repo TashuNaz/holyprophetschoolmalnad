@@ -142,6 +142,7 @@ img{
        font-size:30px;
     }
     .about-us{
+        margin:2px 5px;
         display:block;
         padding:2px 2px;
     }
@@ -149,7 +150,7 @@ img{
         height:400px;
     }
     #para{
-        font-size:12px;
+        font-size:15px;
         overflow: hidden;
         }
     }
