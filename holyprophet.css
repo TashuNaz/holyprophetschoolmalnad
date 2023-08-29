@@ -141,14 +141,6 @@ img{
    .schoolname{
        font-size:30px;
     }
-    .imgdiv{
+    .about-us{
         display:block;
-        height:5vh;
-    }
-    .pa{
-        display:block;
-    }
-    .pa .para{
-        font-size:10px;
-    }
     }
