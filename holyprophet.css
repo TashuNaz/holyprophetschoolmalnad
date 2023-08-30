@@ -166,7 +166,10 @@ img{
     
 }
    .schoolname{
-       font-size:30px;
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:0;   
     }
     .about-us{
         margin-top:2px;
