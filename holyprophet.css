@@ -75,37 +75,39 @@ a{
 }
 
 
-.about-us{
-    border: 8px solid rgb(243, 234, 234);
+.about-us {
+    border: 8px solid rgb(250, 249, 249);
     border-radius: 10px;
-    margin: 20px 20px;
+    margin: 20px;
     background-color: black;
     display: flex;
-    justify-content: center;
-    
-    flex-wrap: wrap;
     height: auto;
+    
 }
-.imgdiv{
-    border:5px solid;
-    flex-basis: 50%;
+
+.imgdiv {
+    flex-basis: 60%;
+    border: 2px solid red;
 }
 .imgdiv img{
-    padding: 2px 2px;
-    height: 600px;
     width: 100%;
+    height: 100%;
+    padding: 0px 10px;
 }
-.pa{
-    border: 5px solid;
-    flex-basis: 50%;
+
+.pa {
+    flex-basis: 40%;
+    border: 2px solid green;
+    height: auto;
+   
 }
-#para{
-    margin-top: 30px;
-    padding: 50px 10px;
-    font-size: 30px;
+.pa p{
+    height: 100%;
+    font-size: 25px;
     color: rgb(243, 247, 243);
-    font-family:'Times New Roman', Times, serif;
-    border: 2px solid rgb(12, 10, 10);
+    font-family:cursive;
+    border: 2px solid rgb(83, 80, 80);
+    padding: 0px 10px;
 }
 #an{
     overflow: hidden;
