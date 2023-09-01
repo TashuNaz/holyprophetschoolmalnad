@@ -100,11 +100,12 @@ a{
     flex-basis: 50%;
 }
 #para{
-    
-    padding: 10px 10px;
-    font-size: 28px;
+    margin-top: 30px;
+    padding: 50px 10px;
+    font-size: 30px;
     color: rgb(243, 247, 243);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid rgb(12, 10, 10);
 }
 #an{
     overflow: hidden;
@@ -140,5 +141,5 @@ img{
 
 @media only screen and (max-width:600px)
 {
-    
+
 }
