@@ -98,7 +98,6 @@ a{
 .pa {
     flex-basis: 40%;
     border: 2px solid green;
-    height: auto;
    
 }
 .pa p{
@@ -143,7 +142,5 @@ img{
 
 @media only screen and (max-width:600px)
 {
-.about-us{
-    height:300px;
-}
+
 }
