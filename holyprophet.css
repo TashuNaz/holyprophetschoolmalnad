@@ -1,146 +1,45 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-}
-body{
-    background-color: rgb(36, 127, 180);
-    color: black;
-}
-.header{
-    margin-top: 10px;
-    padding-top: 10px
-    position: fixed;
-    width: 100%;
-    height: 8vh;
-    display: block;
-    background-color: black;
-}
-#nav{  
-    margin-right: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: 2px solid rgb(167, 13, 38);
-    }
-nav ul li {
-display: inline-block;
-list-style: none;
-margin-left: 20px;
-margin-bottom: 20px;
-margin-top: 20px;
-font-size: 20px;
-color: rgb(19, 233, 133);
-}
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    position: sticky;
-}
-nav ul li a::after{
-content: '';
-width: 0;
-height: 3px;
-background: #09a8c4;
-position: absolute;
-left: 0;
-bottom: -6px;
-transition: 0.5s;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Prophet</title>
+    <link rel="stylesheet" href="holyprophet.css">
+</head>
+<body>
+    <header class="header">
+<nav id="nav">
+    <ul id="sidemenu">
+    <li><a href="#about-us">About Us</li>
+    <li>Academics</li>
+    <li><a href="#beyond">Beyond Academics</a></li>
+    <li>Sports</li>
+    <li><a href="#contact">Contact</a></li>
+    <li>Teacher's Registration</li>
+</ul>
+</nav>
+</header>
+<header class="header-text">
+    <marquee class="schoolname" behaviour="alternate" scrollamount="10" ><i>Holy Prophet English School</i></marquee> 
+</header>
 
-nav ul li a:hover::after{
-width: 100%;
-}
-
-a{
-    text-decoration: none;
-    color: rgb(41, 143, 143);
-}
-.header-text{
-    margin-top: 10px;
-}
-.schoolname{
-    height: auto;
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 50px;
-    color: rgb(22, 167, 224);
-    background-color: rgb(0, 0, 0);
-    word-spacing: 30px;
-}
-
-
-.about-us {
-    border: 8px solid rgb(250, 249, 249);
-    border-radius: 10px;
-    margin: 20px;
-    background-color: black;
-    display: flex;
-    height: auto;
-    
-}
-
-.imgdiv {
-    flex-basis: 60%;
-    border: 2px solid red;
-}
-.imgdiv img{
-    width: 100%;
-    height: 100%;
-    padding: 0px 10px;
-}
-
-.pa {
-    flex-basis: 40%;
-    border: 2px solid green;
-   
-}
-.pa p{
-    height: 100%;
-    font-size: 25px;
-    color: rgb(243, 247, 243);
-    font-family:cursive;
-    border: 2px solid rgb(83, 80, 80);
-    padding: 0px 10px;
-}
-#an{
-    overflow: hidden;
-}
-.beyond{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    font-size: 10px;
-    background:linear-gradient(rgb(166, 43, 182),rgb(47, 6, 143));
-    padding: 10px 10px;
-    row-gap: 10px;
-    }
-img{
-    height: 350px;
-    width: 400px;
-    border: 5px solid rgb(12, 12, 12);
-    border-radius: 10px;
-}
-.box{
-    height: 200px;
-    background:linear-gradient(purple,red);
-    font-size: 25px;
-    text-align: center;
-    line-height: 200px;
-    margin: 10px;
-}
-
-/* css for small screens*/
-
-@media only screen and (max-width:600px)
-{
-
-}
+     <!--  --------------------About Us-----------------------   --> 
+     <h1 style="text-align: center; font-family: cursive;">About Us</h1>   
+    <div class="about-us" id="about-us">
+        <div class="imgdiv"><img id="img" src="./holys.jpeg"></div>
+    <div class="pa"><p id="para">Welcome to <b>Holy Prophet English School </b>, a distinguished educational institution that was founded in the year <b>2007</b> with a visionary commitment to providing quality education and fostering an inclusive learning environment.<br>At <b>Holy Prophet English School</b>, we firmly believe in the power of education to transform lives and create a brighter future for all.<br>
+        Our mission centers around the principle of equal opportunity, where every student is given the chance to excel, grow, and achieve their potential, regardless of their caste, color, or socioeconomic background. We are proud to be an institution that promotes diversity and celebrates the unique talents and perspectives that each student brings to our community.</div></p>
+    </div>
+    <!--         beyond academics     -->
+    <h1 style="text-align: center;font-family: cursive; padding:10px;">Beyond Academics</h1>
+    <div class="beyond" id="beyond">
+        <h1 style="text-align: center;">Yoga Day<div class=" box a"><img src="./yoga.jpeg"></div></h1>
+        <h1 style="text-align: center;">Food Fest<div class=" box a"><img src="./foodfest.jpeg"></div></h1>
+        <h1 class="c" style="text-align: center; ">Independence Day<div class=" box a"><img src="./Indep.jpeg"></div></h1>
+        <h1 style="text-align: center;">Children's Day<div class=" box a"><img src="./Child.jpeg"></div></h1>
+        <h1 style="text-align: center;">Food Fest<div class=" box a"><img src="./Child.jpeg"></div></h1>
+        <h1 style="text-align: center;">Food Fest<div class=" box a"><img src="./Child.jpeg"></div></h1>
+    </div>
+     <!--         Contact     -->
+</body>
+</html>
