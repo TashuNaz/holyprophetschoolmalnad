@@ -134,6 +134,7 @@ img{
 @media only screen and (max-width:600px)
 {
 .header .nav .sidemenu {
+padding:10px 3px;
 font-size: 10px;
 justify-content:space-between;
 }
