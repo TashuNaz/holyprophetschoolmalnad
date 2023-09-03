@@ -31,7 +31,8 @@ color: rgb(19, 233, 133);
 .header .nav .sidemenu li{
     padding: 10px;
     border: 2px solid greenyellow;
-    display: inline;
+    display: flex;
+    flex-wrap:wrap;
 }
 nav ul li a{
     color: #fff;
