@@ -134,6 +134,9 @@ img{
 
 @media only screen and (max-width:600px)
 {
+    .header{
+        height:5px;
+    }
 .header .nav .sidemenu {
 font-size: 10px;
 }
