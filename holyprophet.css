@@ -135,7 +135,7 @@ img{
 {
 .header .nav .sidemenu {
 font-size: 10px;
-justify-content:space-between;
+justify-content:space-evenly;
 }
     .header .nav .sidemenu li{
         padding:5px;
