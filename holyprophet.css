@@ -137,6 +137,6 @@ font-size: 10px;
 justify-content:space-evenly;
 }
     .header .nav .sidemenu li{
-        padding:5px;
+        padding:5px 0px;
     }
 }
