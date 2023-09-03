@@ -14,24 +14,22 @@ body{
 .header {  
     border: 5px solid orangered;
     display: block;
-    width:100%;
     }
     .header nav{
-        border: 2px solid palevioletred;
+        border: 4px solid rgb(82, 192, 18);
         display: block;
     }
 .header .nav .sidemenu {
-
 display:flex;
 flex-wrap: wrap;
 list-style: none;
 font-size: 20px;
 color: rgb(19, 233, 133);
+border: 5px solid black;
 }
 .header .nav .sidemenu li{
     padding: 10px;
     border: 2px solid greenyellow;
-    display: inline;
 }
 nav ul li a{
     color: #fff;
